@@ -1,0 +1,35 @@
+=====================================================
+MACHINE LEARNING USING PYTHON USECASES & REQUIREMENTS
+=====================================================
+
+1. Dataset of 
+500000 rows , 100 columns
+Date Range jan1 2016 to mar 31 2017
+
+format txn date,customer id , txn amount,debit/credit
+
+2. master dataset 100 rows
+Customer id, customer name
+salary
+===============================
+To detect :
+1.Fraud Alerts
+2.Decision tree
+=====================
+++Configurabel data++
+======================		  Before Nov 8,2016			After
+				credits		Debits		Credits 	Debits	 High Deposits
+
+30% Low Salaried <=500000 	 <=2		  5		  4		  7	   1000000
+40% Medium Salaried <=1000000	 <=4		 12		  6		  12	   1500000
+30 High Salaried > 1000000	 >=10		 25		  15		  30	   3000000
+=======================
+1.Create Transcation Dataset
+both transcation and master dataset(100rows)
+2.output - identify possible fraudlet customers
+to show : Customer id , transcation credit, tras. debit, flag(abnormal)
+3.configurable (refer above data)
+4.feed in a dataset
+train dataset of a month
+print results
+move to another folder
