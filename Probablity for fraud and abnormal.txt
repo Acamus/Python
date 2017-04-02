@@ -1,0 +1,12 @@
+--Fraud Cases
+
+-> When a customer salary is more than 30% of his annual salary.
+-> When a customer received the less amount(ex: 1000rs credit in ten thousands times) from different types of accounts and deposit.
+
+--Abnormal Cases
+
+--> when a customer not debit his amount from account over 3 months after credited his salary on 1st of every month and also not doing any transaction. below cases are probably this scenario,
+
+-He may sell the production customer data to a different bank and cause the lost credibility of his working company.
+-may he has other income, which is not accountable in Income tax.
+-Maybe employer does the fraudulent for creating the a empty account and transfer the salary to the account on every month.  by that employer gets income tax exception and also that amounts go to black money.
